@@ -26,3 +26,16 @@ elif opt == '-g':
         print("Goodbye," + person + "! (" + str(i) + ")")
     
 
+def greeting(greetingType):
+    i = 0
+    while i< 12:
+        i = i + 1
+        print (greetingType + ", " + person + "! (" + str(i) + ")" )
+
+# Main Code
+if opt == '-h':
+    greeting('Hello')
+elif opt == '-g':
+    greeting('Goodbye')
+
+
