@@ -6,6 +6,8 @@
 
 
 import sys
+import math
+import numpy
 
 # print(sys.argv[1])
 # :print(sys.argv[2])
@@ -38,5 +40,12 @@ for index, fruit in enumerate(fruits):
     print((index + 1), fruit)
 
 # math
+print("Math Time")
+theNumber = 8.5332532;
+print(math.ceil(theNumber))
+print(math.pi)
 
+# Standard deviation example 
+a = numpy.array([1, 2, 3, 4])
+print(numpy.std(a))
 
